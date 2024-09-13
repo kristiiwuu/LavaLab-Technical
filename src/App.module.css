@@ -1,0 +1,19 @@
+.App {
+  width: auto;
+  height: 1024px;
+  background: #F4F4F4;
+  display: flex;
+  flex-direction: row;
+}
+
+.right_container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.SearchBar {
+  margin: 34px;
+  width: 100%;
+}
+
