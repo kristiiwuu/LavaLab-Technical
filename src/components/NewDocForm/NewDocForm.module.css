@@ -1,0 +1,29 @@
+.container {
+    height: 200px;
+    width: 500px;
+    position: fixed; 
+    background-color: #34347B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    top:25%;
+    left: 50%;
+    transform: translateX(-50%) /*moves the container back by 50% of its width*/
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container input, .container button {
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+}

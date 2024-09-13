@@ -2,9 +2,7 @@ import React from 'react';
 import styles from './Dashboard.module.css';
 import GridView from './GridView/GridView';
 
-function Dashboard() {
-
-
+function Dashboard({ docs }) {
     return (
         <div className={styles.container}>
             <div className={styles.header}>
@@ -15,7 +13,7 @@ function Dashboard() {
                 </div>
             </div>
             <div className={styles.files}>
-                <GridView />
+                <GridView docs={docs}/>
             </div>
         </div>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './SideMenu.module.css';
 import Panel from './Panel/Panel';
 
-function SideMenu() {
+function SideMenu({handleNewDoc}) {
 
     const panels = [{
         src:'./assets/home-variant.png',
@@ -36,10 +36,9 @@ function SideMenu() {
                 })}
             </div>
             <div className={styles.new_doc}>
-                <p>+ New</p>
+                <button type='submit' onClick={handleNewDoc}>+ New</button>
             </div>
         </div>
-        
     );
 }
 

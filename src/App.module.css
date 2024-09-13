@@ -4,6 +4,7 @@
   background: #F4F4F4;
   display: flex;
   flex-direction: row;
+  overflow-x: hidden;
 }
 
 .right_container {
@@ -13,7 +14,9 @@
 }
 
 .SearchBar {
-  margin: 34px;
-  width: 100%;
+  margin: 34px 50px;
 }
 
+.Dashboard {
+  margin: 58.96px 50px 137px 42px;
+}

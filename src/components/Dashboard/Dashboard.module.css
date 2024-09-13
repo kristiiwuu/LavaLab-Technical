@@ -1,65 +1,51 @@
 .container {
     display: flex;
-    width: 1110px;
+    width: 1019px;
+    height: 679px;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 28px;
     position: relative;
-    margin: 34px;
 }
 
-.header, .files {
+.header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 817px;
     align-self: stretch;
-    color: #000;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .header p {
-    width: 133px;
+    width: auto;
+    height: auto;
     color: #000;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-right: 100px;
 }
 
 .icons {
-    width: 34px;
+    width: 65px;
     height: 34px;
-    border-radius: 4.387px;
-    /* background: #EBEBEB; hover */
     display: flex;
-    flex-direction: row;
-    margin: 0px;
-    padding: 0px;
+    align-items: center;
+    gap: 12px;
 }
 
 .icon1 {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    top: 24px;
-    right: 125px;
+    width: 34px;
+    height: 34px;
+    border-radius: 4.387px;
 }
 
 .icon2 {
-    width: 19.018px;
-    height: 15px;
-    position: absolute;
-    top: 28px;
-    right: 100px;
+    width: 20px;
+    height: 20px;
 }
 
-
-.files {
-    flex-direction: row;
-
+.icon1:hover, .icon2:hover {
+    background: #EBEBEB;
 }
+

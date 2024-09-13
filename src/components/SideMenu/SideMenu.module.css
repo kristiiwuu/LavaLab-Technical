@@ -9,11 +9,10 @@
 }
 
 .logo {
-    padding-top: 57px;
-    padding-bottom: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 57px;
 }
 
 .logo svg{
@@ -32,33 +31,31 @@
 }
 
 .menu {
+    margin-top: 48px;
+    margin-left: 63px;
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
 }
 
-.new_doc {
-    bottom: 39px;
-    position: absolute;
+.new_doc button{
     display: flex;
     width: 261px;
     height: 40px;
     padding: 8px 20px;
     justify-content: center;
     align-items: center;
+    gap: 12px;
     flex-shrink: 0;
+    position: absolute;
+    bottom: 39px;
     border-radius: 8px;
     background: #34347B;
-    margin-left: 13px; /*center */
-
-}
-
-.new_doc p {
     color: #FFF;
-    /* font-family: Manrope; */
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-left: 34px;
 }

@@ -2,19 +2,20 @@
     display: inline-flex;
     align-items: center;
     gap: 20px;
+    width: auto;
+    height: auto;
 }
 
 .searchbar_container {
-    display: flex;
-    width: 900px;
+    width: 683px;
     height: 67px;
     padding: 0px 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     gap: 10px;
     border-radius: 5px;
     border: 2px solid #CACACA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .frame135 {
@@ -30,7 +31,7 @@
     flex-shrink: 0;
 }
 
-.search{
+.search {
     width: 245.347px;
     height: 24px;
     flex-shrink: 0;
@@ -71,7 +72,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: 100%; /* 24px */
-    z-index: 100;
     margin: 10px 0px;
 }
 
@@ -80,6 +80,8 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 2px;
+    height: auto;
+    width: auto;
 }
 
 .name {
