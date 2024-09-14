@@ -2,10 +2,12 @@ import React from 'react';
 import styles from './File.module.css';
 
 function File({ title, timestamp }) {
-
-    console.log(timestamp);
+    const handleFileSelect = () => {
+        
+    };
+    
     return (
-        <div className={styles.container}>
+        <div className={styles.container} onClick={handleFileSelect}>
             <div className={styles.display}>
                 <img src='./assets/file-document.png' />
             </div>

@@ -9,7 +9,7 @@ function NewDocForm({ onSubmit }) {
     const handleSubmit = (e) => {
         e.preventDefault();
         onSubmit(title); // send title to parent
-        setTitle('Untitled Document'); // clear input after submitting
+        setTitle('Untitled Document'); // set back to default name after submitting
     }
 
     return (

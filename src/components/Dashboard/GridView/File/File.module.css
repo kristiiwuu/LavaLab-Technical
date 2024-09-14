@@ -11,6 +11,10 @@
     background: #F7F7F7;
 }
 
+.container:hover {
+    background-color: rgba(193,193,208,0.55); 
+}
+
 .display {
     width: 275px;
     height: 175px;
