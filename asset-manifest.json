@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lavalab_app/static/css/main.5c8e0168.css",
+    "main.js": "/lavalab_app/static/js/main.87cfdeff.js",
+    "static/js/453.683f490f.chunk.js": "/lavalab_app/static/js/453.683f490f.chunk.js",
+    "index.html": "/lavalab_app/index.html",
+    "main.5c8e0168.css.map": "/lavalab_app/static/css/main.5c8e0168.css.map",
+    "main.87cfdeff.js.map": "/lavalab_app/static/js/main.87cfdeff.js.map",
+    "453.683f490f.chunk.js.map": "/lavalab_app/static/js/453.683f490f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c8e0168.css",
+    "static/js/main.87cfdeff.js"
+  ]
+}
