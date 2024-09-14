@@ -1,0 +1,50 @@
+.container {
+    height: 80px;
+    width: 1019px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #CACACA;
+    background: #F7F7F7;
+    position: relative; /* Added to enable proper positioning of child elements */
+}
+
+.container:hover {
+    background-color: rgba(193, 193, 208, 0.55);
+}
+
+.display img {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    height: 50px;
+    width: 244px;
+}
+
+.text p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    white-space: nowrap; /* Ensures text does not wrap */
+}
+
+.timestamp {
+    display: flex;
+    align-items: center;
+    width: 244px;
+}
+
+.timestamp p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}

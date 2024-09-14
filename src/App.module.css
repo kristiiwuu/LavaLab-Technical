@@ -1,17 +1,16 @@
 .App {
-  width: auto;
   height: 1024px;
   background: #F4F4F4;
   display: flex;
   flex-direction: row;
   overflow-x: hidden;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
 }
 
 .right_container {
   display: flex;
   flex-direction: column;
-  width: auto;
+  flex-grow: 1; /* Allows it to take remaining space if needed */
 }
 
 .SearchBar {
@@ -19,5 +18,5 @@
 }
 
 .Dashboard {
-  margin: 58.96px 50px 137px 42px;
+  margin: 59px 50px 137px 42px;
 }

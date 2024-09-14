@@ -10,34 +10,32 @@
 
 .header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between; /* Replaces fixed gap with space-between for dynamic spacing */
     align-items: center;
-    gap: 817px;
-    align-self: stretch;
+    width: 100%; /* Ensures header spans full width of container */
 }
 
 .header p {
-    width: auto;
-    height: auto;
     color: #000;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0; /* Removes default margin */
 }
 
 .icons {
-    width: 65px;
-    height: 34px;
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
+.icon1, .icon2 {
+    border-radius: 4px; /* Adds border-radius to both icons for consistency */
+}
+
 .icon1 {
     width: 34px;
     height: 34px;
-    border-radius: 4.387px;
 }
 
 .icon2 {
@@ -48,4 +46,3 @@
 .icon1:hover, .icon2:hover {
     background: #EBEBEB;
 }
-

@@ -3,21 +3,22 @@ import styles from './SideMenu.module.css';
 import Panel from './Panel/Panel';
 
 function SideMenu({handleNewDoc}) {
-
+    
+    // process.env.PUBLIC_URL: environment variable that reps the public URL path where the app is being served
     const panels = [{
-        src:'./assets/home-variant.png',
+        src: process.env.PUBLIC_URL + '/assets/home-variant.png',
         text:'All projects'
     }, {
-        src: './assets/account.png',
+        src: process.env.PUBLIC_URL + '/assets/account.png',
         text: 'Your projects'
     }, {
-        src: './assets/account-supervisor.png',
+        src: process.env.PUBLIC_URL + '/assets/account-supervisor.png',
         text: 'Shared with you'
     }, {
-        src: './assets/inbox-arrow-down.png',
+        src: process.env.PUBLIC_URL + '/assets/inbox-arrow-down.png',
         text: 'Archived'
     }, {
-        src: './assets/delete.png',
+        src: process.env.PUBLIC_URL + '/assets/delete.png',
         text: 'Trash'
     }]
     

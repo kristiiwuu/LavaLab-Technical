@@ -7,9 +7,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    top:25%;
+    top: 25%;
     left: 50%;
-    transform: translateX(-50%) /*moves the container back by 50% of its width*/
+    transform: translateX(-50%); /* Moves the container back by 50% of its width */
 }
 
 .container form {
@@ -20,7 +20,8 @@
     gap: 10px;
 }
 
-.container input, .container button {
+.container input, 
+.container button {
     height: 30px;
     width: 200px;
     border-radius: 8px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './File.module.css';
+import styles from './List.module.css';
 
 function File({ title, timestamp }) {
     return (
